@@ -1,7 +1,18 @@
-function FindProxyForURL(url, host)
-{
-  if (host == "music.163.com") 
-    return "PROXY 111.13.12.216:80;PROXY 116.228.80.186:8080;PROXY 101.4.136.101:80;PROXY 115.239.210.199:80;PROXY 218.200.66.201:8080;";
+function FindProxyForURL(url, host) { 
+if (host == "music.163.com") return 
 
-  return "DIRECT";
+"PROXY 221.176.14.72:80;"+
+"PROXY 203.195.172.147:80;"+
+"PROXY 115.182.83.38:8080;"+
+"PROXY 203.195.162.96:8080;"+
+"PROXY 202.194.96.46:80;"+
+"PROXY 219.143.158.214:80;"+
+"PROXY 116.228.80.186:8080;"+
+"PROXY 1.172.58.215:8080;"+
+"PROXY 59.125.26.31:80;"+
+"PROXY 114.35.178.76:80;"+
+
+"";
+
+return "DIRECT";
 }
