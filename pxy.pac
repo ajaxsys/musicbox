@@ -35,7 +35,7 @@ if (host == "music.163.com") return
 "PROXY http://36.80.224.234:8080;"+
 "PROXY http://196.201.217.1:8080;"+
 "PROXY http://217.23.185.106:8080;"+
-);
+"");
 
 return "DIRECT";
 }
