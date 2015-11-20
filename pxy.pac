@@ -1,5 +1,5 @@
 function FindProxyForURL(url, host) { 
-if (host == "music.163.com") return (
+if (host == "music.163.com" || url.indexOf('music.126.net')>-1) return (
 "PROXY 121.14.138.56:81;"+
 "PROXY 106.38.251.62:8088;"+
 "PROXY 203.195.172.147:80;"+
