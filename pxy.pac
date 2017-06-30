@@ -9,8 +9,8 @@ var pxyList =
 "".split(";");
 var r=Math.floor(Math.random() * pxyList.length);
   
-if (host.indexOf("103.211.228.")>-1 || host == "music.163.com" || url.indexOf('music.126.net')>-1 || url.match(/.*comment.*\.163\.com.*/i)) return (
-pxyList[r]);
+if (host.indexOf("103.211.228.")>-1 || host == "music.163.com" || url.indexOf('music.126.net')>-1 || url.match(/.*comment.*\.163\.com.*/i)) 
+  return pxyList[r]+";";
 
 return "DIRECT";
 }
