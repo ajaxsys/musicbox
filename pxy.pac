@@ -6,8 +6,8 @@ if (url.indexOf(".mp3")>1 || url.indexOf(".mp4")>1 || url.indexOf(".flv")>1)
 var pxyList = (
   
   
-"PROXY 110.216.61.8:80;"+
-"PROXY 119.48.185.155:8118;"+
+"PROXY 210.38.1.130:80;"+
+"PROXY 210.35.171.5:8080;"+
 
   
   "").replace(/;$/,"").split(";");
